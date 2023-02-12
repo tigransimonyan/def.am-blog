@@ -1,7 +1,6 @@
 title: def.am
 email: tigran@def.am
-description: def.am-ը հայասյաստանում տեղակայուած անկախ սպասարկիչ է։ Այստեղ կարող էք կարդալ դրանում կեղակայուած յաւելուածների, դրանք կառաւարման եւ թարմացումների մասին։
-baseurl: ''
+description: Այս էջը անկախ սպասարկիչ ունենալու, այն կառաւարելու, հոսանքից անջատելու եւ միացնելու մասին է։
 url: 'https://def.am'
 author: 'Tigran Simonyan'
 permalink: /:title/
@@ -10,7 +9,7 @@ lang: 'hy'
 excerpt_separator: "\n\n\n"
 date_format: '%B %d, %Y'
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 tag_permalink_style: pretty
 tag_page_layout: tag_page
 tag_page_dir: tag
@@ -21,20 +20,20 @@ dash:
 
   # (optional) discqus comment configuration
   disqus:
-    shortname: bitbrain-github-io
+    # shortname: bitbrain-github-io
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    - url: https://twitter.com/bitbrain_
-      icon: twitter-square
-      color: cyan
-    - url: https://bitbrain.itch.io
-      icon: itch-io
-      color: red
-    - url: https://github.com/bitbrain
-      icon: github-square
-      color: purple
+    # - url: https://twitter.com/bitbrain_
+    #   icon: twitter-square
+    #   color: cyan
+    # - url: https://bitbrain.itch.io
+    #   icon: itch-io
+    #   color: red
+    # - url: https://github.com/bitbrain
+    #   icon: github-square
+    #   color: purple
 
   # wether the author box should be displayed
   show_author: true

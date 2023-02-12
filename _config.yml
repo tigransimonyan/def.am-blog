@@ -1,6 +1,6 @@
 title: def.am
 email: tigran@def.am
-description: Այս էջը անկախ սպասարկիչ ունենալու, այն կառաւարելու, հոսանքից անջատելու եւ միացնելու մասին է։
+description: Այս կայքը անկախ սպասարկիչ ունենալու, այն կառաւարելու, հոսանքից անջատելու եւ միացնելու մասին է։
 url: 'https://def.am'
 author: 'Tigran Simonyan'
 permalink: /:title/
@@ -46,8 +46,8 @@ dash:
   rtl: false
 
   # Replaces the default avatar provider (gravatar)
-  #avatar_source: github
-  #github_username: bitbrain
+  avatar_source: github
+  github_username: tigransimonyan
   #avatar_source: local
   #avatar_path: /assets/avatar.png
 

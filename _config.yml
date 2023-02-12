@@ -10,35 +10,46 @@ lang: 'hy'
 excerpt_separator: "\n\n\n"
 date_format: '%B %d, %Y'
 
-# Layout
+show_excerpts: false # set to true to show excerpts on the homepage
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
 
-show_excerpts: true # show article excerpts on the home page
-show_frame: true # adds a gray frame to the site
-show_sidebar: false # show a sidebar instead of the usual header
-minimal: false # use a dark header
+dash:
+  # the way how dates should be displayed
+  date_format: '%b %-d, %Y'
 
-# Menu
+  # (optional) discqus comment configuration
+  disqus:
+    shortname: bitbrain-github-io
 
-navigation: # accepts {file, title, url, icon, sidebaricon}
-  - { file: 'index.html' }
-  - { file: 'README.md' }
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/bitbrain_
+      icon: twitter-square
+      color: cyan
+    - url: https://bitbrain.itch.io
+      icon: itch-io
+      color: red
+    - url: https://github.com/bitbrain
+      icon: github-square
+      color: purple
 
-external: # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {
-      title: Mail,
-      icon: envelope,
-      url: 'mailto:niklasbuschmann@users.noreply.github.com',
-    }
-  - {
-      title: Github,
-      icon: github,
-      url: 'https://github.com/niklasbuschmann/contrast',
-    }
-  - { title: Subscribe, icon: rss, url: '/feed.xml' }
+  # wether the author box should be displayed
+  show_author: true
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
+  # the animation speed of the scroll-in effect
+  animation_speed: 50
+
+  # wether to enable Right-to-Left support or not
+  rtl: false
+
+  # Replaces the default avatar provider (gravatar)
+  #avatar_source: github
+  #github_username: bitbrain
+  #avatar_source: local
+  #avatar_path: /assets/avatar.png
 
 sass:
   sass_dir: assets/css
@@ -46,6 +57,10 @@ sass:
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - liquid-md5
+  - jekyll/tagging
 
 exclude:
   - .sass-cache/

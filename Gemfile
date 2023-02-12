@@ -14,6 +14,9 @@ gem "jekyll", "~> 4.3.2"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
+  gem "jekyll-tagging"
+  gem "liquid-md5"
+  gem "kramdown-parser-gfm"
   gem "jekyll-seo-tag", "~> 2.6.1"
   gem "jekyll-feed", "~> 0.12"
 end

@@ -31,9 +31,10 @@ dash:
     # - url: https://bitbrain.itch.io
     #   icon: itch-io
     #   color: red
-    # - url: https://github.com/bitbrain
-    #   icon: github-square
-    #   color: purple
+    - url: /feed.xml
+      icon: rss
+      fa: true
+      color: purple
 
   # wether the author box should be displayed
   show_author: true

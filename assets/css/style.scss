@@ -5,6 +5,7 @@
 @import "dash";
 
 .post-excerpt {
+    margin-top: 0.5em;
     @include themed() {
         color: t('foreground-color');
     }

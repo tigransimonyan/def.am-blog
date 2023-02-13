@@ -29,10 +29,14 @@ body, html {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
-blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
+blockquote,
+ul, ol, dl, figure {
   margin-bottom: $spacing-unit / 3;
+}
+
+pre, %vertical-rhythm {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 p {

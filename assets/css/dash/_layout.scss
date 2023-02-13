@@ -28,6 +28,7 @@
   font-weight: 300;
   margin-bottom: 0;
   float: left;
+  font-family: "Varela Round";
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -37,7 +38,8 @@
   &:visited,
   &:hover {
     @include themed() {
-       color: t('foreground-color');
+       color: #fff;
+      //  color: t('foreground-color');
     }
     text-decoration: none;
   }

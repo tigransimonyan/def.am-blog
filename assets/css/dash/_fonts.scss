@@ -14,4 +14,18 @@
 
 @include font('Varela Round', '/assets/fonts/VarelaRound-Regular');
 @include font('Roboto Mono', '/assets/fonts/RobotoMono-Medium');
-@include font('Noto Sans Armenian', '/assets/fonts/noto-sans-armenian/NotoSansArmenian-Medium');
+
+@font-face {
+  font-family: FedraSansArm-Light;
+  src: url('/assets/fonts/FedraSansArm/FedraSansArm-Light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: FedraSansArm-Demi;
+  src: url('/assets/fonts/FedraSansArm/FedraSansArm-Demi.otf') format("opentype");
+}
+
+@font-face {
+  font-family: FedraSansArm-Bold;
+  src: url('/assets/fonts/FedraSansArm/FedraSansArm-Bold.otf') format("opentype");
+}

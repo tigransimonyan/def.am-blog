@@ -35,8 +35,8 @@ ul, ol, dl, figure {
 }
 
 pre, %vertical-rhythm {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
+  margin-top: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
 }
 
 p {

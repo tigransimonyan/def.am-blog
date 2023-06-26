@@ -200,19 +200,12 @@
     @include themed() {
        color: t('list-primary');
     }
-    list-style: none;
     margin-left: 0;
-
-    &:before {
-      content: $icon-check;
-      @include font-awesome-icon;
-      margin-right: 0.5em;
-    }
   }
 
   ul, ol {
-    padding: 0;
     margin-left: 0.5em;
+		margin-bottom: 20px;
   }
 
 

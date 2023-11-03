@@ -197,9 +197,6 @@
   ul > li {
     text-align: left;
     margin-bottom: 0.6em;
-    @include themed() {
-       color: t('list-primary');
-    }
     margin-left: 0;
   }
 
